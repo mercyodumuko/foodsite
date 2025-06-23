@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food delievery</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+<nav>
+    <div class="nav-header">
+
+<div class="logo">
+    <a href="#" class="foodie"> Foodie</a>
+</div>
+<div class="hidenav">
+<ul class="nav-links">
+    <li ><a href="#home">Home</a></li>
+    <li ><a href="#menu">Menu</a></li>
+    <li><a href="#contact">Contact us</a></li>
+        <li class="cart-icon"><svg xmlns="http://www.w3.org/2000/svg"  height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM208-800h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Z"/></svg></a></li>
+
+    <div class="dot" >.</div>
+
+</ul> 
+ 
+</div>
+
+
+
+ <div class="nav-menu-bnt" >
+                         <div class="cart-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM208-800h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Z"/></svg></div>
+    <div class="dot">.</div>
+                <i class="fa fa-bars" aria-hidden="true" id="menu-bnt" ></i>
+
+            </div>
+        
+<div class="sidebar">
+    <div class="closeicon" id="closeicon">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+    </div>
+    <div class="top">
+<li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#contact">contact us</a></li>
+    </div>
+</div>
+
+
+</div>
+ 
+            </nav>
+
+<section class="home" id="home">
+<div class="hero">
+    <div class="header">
+    <span>Welcome To Our</span>
+    <h1>Healthy Food Collections</h1>
+    <p class="home-text">Explore  Our </p>
+    <button class="menu-bnt" id="menu">menu</button>
+</div>
+</div>
+</section>
+
+
+<div class="cart-slide">
+<div class="cart-container">
+<h2 class="cart-title">Cart Items</h2>
+
+<div class="cart-content">
+   <!-- <div class="cart-box">
+        <img src="images/img2.jpg" alt="" class="cart-img">
+        <div class="cart-details">
+            <h2 class="cart-prodct-title">Fried Rice</h2>
+            <span class="cart-price">$100</span>
+            <div class="cart-quantity">
+         <button id="decrement">-</button>
+         <span class="number">1</span>
+         <button id="increment">+</button>
+            </div>
+        </div>
+       <div class="cart-remove">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm80-160h80v-360h-80v360Zm160 0h80v-360h-80v360Z"/></svg>
+       </div>
+    </div>-->
+</div>
+<div class="total">
+    <div class="total-title">Total</div>
+    <div class="total-price">$0</div>
+</div>
+<button class="bnt-buy">Buy Now</button>
+ <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" id="cart-close" width="24px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+</div>
+</div>
+
+<section class="menu" id="menu">
+    <div class="center-text">
+        <p class="green">Explore Our Dishes</p>
+        <h3>Our Menu</h3>
+    </div>
+
+<div class="box-content">
+    <div class="row">
+        <div class="row-img">
+            <img src="images/img1.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Eguisi soup</h4>
+        <p class="price">$90.00</p>
+
+  </div>
+
+
+
+ <div class="row">
+        <div class="row-img">
+            <img src="images/img2.jpg" alt="food" class="product-img">
+             <div class="m-bnt">
+           <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Fried Rice</h4>
+        <p class="price">$100.00</p>
+
+  </div>
+
+   <div class="row">
+        <div class="row-img">
+            <img src="images/salad1.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Salad With tomatos</h4>
+        <p class="price">$60.00</p>
+
+  </div>
+
+
+
+    <div class="row">
+        <div class="row-img">
+            <img src="images/img4.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Jellof Rice</h4>
+        <p class="price">$80.00</p>
+
+  </div>
+
+
+    <div class="row">
+        <div class="row-img">
+            <img src="images/img7.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Spaghetti with vegetables</h4>
+        <p class="price">$75.00</p>
+
+  </div>
+
+
+     <div class="row">
+        <div class="row-img">
+            <img src="images/img9.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Spaghetti with stew </h4>
+        <p class="price">$70.00</p>
+
+  </div>
+
+
+    <div class="row">
+        <div class="row-img">
+            <img src="images/Rice.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Fried Rice with vegetables</h4>
+        <p class="price">$120.00</p>
+
+  </div>
+
+
+     <div class="row">
+        <div class="row-img">
+            <img src="images/Rice2.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Rice with Stew</h4>
+        <p class="price">$85.00</p>
+
+  </div>
+
+
+
+</div>
+
+</section>
+
+
+  <section class="writeup">
+<div class="writeup-content">
+    <h3>Enjoy The Delicious Taste</h3>
+    <p>When you've got your health, you got everything</p>
+</div>
+
+  </section>
+
+<section class="product">
+
+    <div class="center-items">
+        <p class="green">We Make Quality Foods</p>
+        <h3>Our Seafoods</h3>
+    </div>
+
+<div class="box-content">
+     <div class="row">
+        <div class="row-img">
+            <img src="images/img5.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" class="align" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Seafood with corn</h4>
+        <p class="price">$152.00</p>
+
+  </div>
+
+
+   <div class="row">
+        <div class="row-img">
+            <img src="images/img8.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Spaghetti  with Seafood </h4>
+        <p class="price">$100.00</p>
+
+  </div>
+
+
+   <div class="row">
+        <div class="row-img">
+            <img src="images/img10.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Seafood width mussels</h4>
+        <p class="price">$150.00</p>
+
+  </div>
+
+
+     <div class="row">
+        <div class="row-img">
+            <img src="images/shrimp.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Shrimp Boil</h4>
+        <p class="price">$90.09</p>
+
+  </div>
+
+</div>
+
+</section>
+
+<section class="native-foods">
+  <div class="center-items">
+        <p class="green">Have a Taste Of Our Native Foods</p>
+        <h3>our Native foods</h3>
+    </div>
+
+    <div class="box-content">
+
+          <div class="row">
+        <div class="row-img">
+            <img src="images/photo.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">African Salad</h4>
+        <p class="price">$70.00</p>
+
+  </div>
+
+   <div class="row">
+        <div class="row-img">
+            <img src="images/nativerice.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Nigerian native rice</h4>
+        <p class="price">$120.00</p>
+
+  </div>
+
+
+      <div class="row">
+        <div class="row-img">
+            <img src="images/nativesoup.jpg" alt="food" class="product-img">
+             <div class="m-bnt" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+        </div>
+        </div>
+        <h4 class="product-name">Nigerian native soup</h4>
+        <p class="price">$115.00</p>
+
+  </div>
+
+
+
+</div>
+
+</section>
+
+   
+
+
+
+
+<section id="contact">
+    <div class="footer">
+
+       <div class="icons"> 
+     <h5>We believe it can do <br> amazing things.</h5>   
+
+   <a href="https://www.instagram.com/_tessa_mercy/profilecard/?igsh=NWJ14aGx2MWo1
+"><i class="fab fa-instagram"></i></a>
+   <a href="https://www.facebook.com/profile.php?id=100083269860941"><i class="fab fa-facebook"></i></a>
+  <a href="#"><i class="fab fa-whatsapp"></i></a>
+   </div>
+
+   <div class="footer-box">
+    <h3>Usefull Links</h3>
+    <li><a href="#">Support</a></li>
+    <li><a href="#">privacy policy</a></li>
+    <li><a href="#">Terms of Use</a></li>
+     <li><a href="#">Expert Testmonial</a></li>
+
+   </div>
+
+  <div class="footer-box">
+    <h3>Our Services</h3>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Track Your Order</a></li>
+    <li><a href="#">Returns policy </a></li>
+     <li><a href="#">Warranty & Repairs</a></li>
+          <li><a href="#">My account</a></li>
+   </div>
+
+ <div class="footer-box">
+    <h3>Contact</h3>
+    <li><a href="#">Work time</a></li>
+    <li><a href="#">Monday - Friday</a></li>
+    <li><a href="#">10:00 - 00:00</a></li>
+     <li><a href="#">Address</a></li>
+          <li><a href="#">My account</a></li>
+   </div>
+
+</div>
+    </div>
+</section>
+
+</body>
+<script src="index.js"></script>
+</html>
+ 
